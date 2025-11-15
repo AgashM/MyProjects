@@ -16,6 +16,7 @@ You now have a fully functional newsletter and blog platform similar to Medium, 
 - ✅ User Profiles
 - ✅ Responsive Design (Mobile-friendly)
 - ✅ Modern UI (Tailwind CSS)
+- ✅ Reading Time Calculation (auto-estimated for each post)
 
 ### Technical Features
 - ✅ MongoDB Database (User, Post, Newsletter models)

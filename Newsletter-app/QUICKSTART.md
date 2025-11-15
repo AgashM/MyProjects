@@ -66,6 +66,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 3. Write your content
 4. Add a cover image (optional)
 5. Click "Publish"
+6. Your post will display an estimated reading time automatically!
 
 ## Deploy for Free
 

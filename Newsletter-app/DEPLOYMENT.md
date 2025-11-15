@@ -145,6 +145,10 @@ This guide will help you deploy your newsletter blog platform for free using Ver
    - Set value to: `https://your-app-name.vercel.app`
    - Save and redeploy (or it will auto-redeploy)
 
+## Feature Note
+
+Each blog post will automatically display an estimated reading time, calculated from the post content.
+
 ### Step 5: Test Your Deployment
 
 1. **Visit Your Site**

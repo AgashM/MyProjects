@@ -6,8 +6,9 @@ A full-featured newsletter and blog platform inspired by Medium, built with Next
 
 - ✍️ **Rich Text Editor** - Write beautiful blog posts with a WYSIWYG editor
 - 🖼️ **Image Upload** - Upload and manage images using Cloudinary
-- 👤 **User Authentication** - Sign up, login, and user profiles
+- 👤 **User Authentication** - Register, login, and user profiles
 - 📝 **Blog Management** - Create, edit, delete, and publish blog posts
+- ⏱️ **Reading Time Calculation** - Each post displays an estimated reading time
 - 📧 **Newsletter Subscription** - Subscribe/unsubscribe to newsletters
 - 🎨 **Modern UI** - Beautiful, responsive design with Tailwind CSS
 - 🔍 **SEO Friendly** - Optimized for search engines
@@ -19,7 +20,7 @@ A full-featured newsletter and blog platform inspired by Medium, built with Next
 - **Backend**: Next.js API Routes
 - **Database**: MongoDB (MongoDB Atlas)
 - **Image Storage**: Cloudinary
-- **Authentication**: Custom JWT-based auth with localStorage
+- **Authentication**: Server-side register/login endpoints; the client persists the logged-in user in app state or localStorage (no JWT required by default)
 - **Rich Text Editor**: React Quill
 
 ## Getting Started
@@ -35,7 +36,7 @@ A full-featured newsletter and blog platform inspired by Medium, built with Next
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd newsletter-blog-platform
+cd Newsletter-app
 ```
 
 2. Install dependencies:
