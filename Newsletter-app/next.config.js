@@ -9,6 +9,13 @@ const nextConfig = {
       },
     ],
   },
+  webpack: (config, { isServer }) => {
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      jsdom: false,
+    };
+    return config;
+  },
 }
 
 module.exports = nextConfig
